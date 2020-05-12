@@ -41,7 +41,7 @@ print("Student.__dic__: ", std.Student.__dict__)
 del stud1
 
 r = 50
-n = "Sunil"
+n = "SunilB"
 c = "MFE"
 m = 580
 # Creating the object
