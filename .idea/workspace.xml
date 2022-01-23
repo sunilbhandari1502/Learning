@@ -1,119 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="05084991-2f25-4146-807e-890320a7bc71" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="05084991-2f25-4146-807e-890320a7bc71" name="Default Changelist" comment="added CRT 2">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C7/CRT2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C7/CRT4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C7/GWP1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C7/GWP5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C7/PyOptExample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/.ipynb_checkpoints/Daily_Share_Volume_1900-1919-checkpoint.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/.ipynb_checkpoints/Daily_Share_Volume_1920-1929-checkpoint.prn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/100_Portfolios_10x10_Daily.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/Daily_Share_Volume_1888-1899.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/Daily_Share_Volume_1900-1919.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/Daily_Share_Volume_1920-1929.prn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/Daily_Share_Volume_1930-1939.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/Daily_Share_Volume_1940-1949.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/Daily_Share_Volume_1950-1959.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/Daily_Share_Volume_1960-1969.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/Daily_Share_Volume_1970-1979.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/F-F_Research_Data_5_Factors_2x3_daily.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/FRED_MBS_Purchase_Program.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/M1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Media/.ipynb_checkpoints/fama-french-benchmark-portfolios-checkpoint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Media/US_FR_QE_Assets.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Media/anaconda-navigator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Media/fama-french-benchmark-portfolios.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Media/jupyter-lab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Media/jupyter-notebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Media/liquidity_trap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorldQuant/Capstone/FinalProject.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kiteconnect/Code/Connection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kiteconnect/Code/paperExec.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kiteconnect/Code/TickData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kiteconnect/Code/HistoricDataFetcher.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Examples/ModulesandPackages.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kiteconnect/Strategy/Intra-Day trading Strategy using SVM.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6528">
-              <caret line="395" column="12" selection-start-line="395" selection-start-column="12" selection-end-line="395" selection-end-column="12" />
-              <folding>
-                <element signature="e#995#1030#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Examples/ClassExample.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Examples/BankingClass.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Examples/StudentClass.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Examples/Inheritancetest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,6 +47,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -145,6 +74,10 @@
     <option name="width" value="976" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectId" id="1sOW18gga665StRE4ctuxQ4h3n4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -154,23 +87,20 @@
       <pane id="ProjectPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PyPortfolioOpt/examples.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.BankingClass">
-    <configuration name="BankingClass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.FinalProject">
+    <configuration name="FinalProject" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProjectTesting" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,11 +108,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorldQuant/Capstone" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Examples/BankingClass.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorldQuant/Capstone/FinalProject.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ClassExample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GWP1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProjectTesting" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,11 +129,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorldQuant/C7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Examples/ClassExample.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorldQuant/C7/GWP1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Intra-Day trading Strategy using SVM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="M1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProjectTesting" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,11 +150,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kiteconnect/Strategy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorldQuant/C8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kiteconnect/Strategy/Intra-Day trading Strategy using SVM.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorldQuant/C8/M1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Student" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PyOptExample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProjectTesting" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,11 +171,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorldQuant/C7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\sunilbhandari1\PycharmProjects\ProjectTesting\Examples\StudentClass.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorldQuant/C7/PyOptExample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,7 +184,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="StudentClass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProjectTesting" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -262,11 +192,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorldQuant/C7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Examples/StudentClass.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorldQuant/C7/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,14 +207,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BankingClass" />
-        <item itemvalue="Python.StudentClass" />
-        <item itemvalue="Python.ClassExample" />
-        <item itemvalue="Python.Student" />
-        <item itemvalue="Python.Intra-Day trading Strategy using SVM" />
+        <item itemvalue="Python.FinalProject" />
+        <item itemvalue="Python.GWP1" />
+        <item itemvalue="Python.M1" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.PyOptExample" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -330,6 +261,23 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added CRT 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added CRT 2" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -348,7 +296,114 @@
           <line>379</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/GWP1.py</url>
+          <line>355</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/GWP1.py</url>
+          <line>473</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/GWP1.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/CRT4.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/CRT4.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/GWP5.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/GWP5.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/GWP5.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/GWP5.py</url>
+          <line>147</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/GWP5.py</url>
+          <line>183</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/GWP5.py</url>
+          <line>209</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/GWP5.py</url>
+          <line>232</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/GWP5.py</url>
+          <line>286</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/GWP5.py</url>
+          <line>464</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/PyPortfolioOpt/examples.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/PyOptExample.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/test.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C8/M1.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/C7/GWP1.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WorldQuant/Capstone/FinalProject.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
