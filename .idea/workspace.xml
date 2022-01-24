@@ -5,36 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05084991-2f25-4146-807e-890320a7bc71" name="Default Changelist" comment="added CRT 2">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C7/CRT2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C7/CRT4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C7/GWP1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C7/GWP5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C7/PyOptExample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/.ipynb_checkpoints/Daily_Share_Volume_1900-1919-checkpoint.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/.ipynb_checkpoints/Daily_Share_Volume_1920-1929-checkpoint.prn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/100_Portfolios_10x10_Daily.p" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/Daily_Share_Volume_1888-1899.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/Daily_Share_Volume_1900-1919.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/Daily_Share_Volume_1920-1929.prn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/Daily_Share_Volume_1930-1939.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/Daily_Share_Volume_1940-1949.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/Daily_Share_Volume_1950-1959.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/Daily_Share_Volume_1960-1969.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/Daily_Share_Volume_1970-1979.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/F-F_Research_Data_5_Factors_2x3_daily.p" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Data/FRED_MBS_Purchase_Program.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/M1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Media/.ipynb_checkpoints/fama-french-benchmark-portfolios-checkpoint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Media/US_FR_QE_Assets.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Media/anaconda-navigator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Media/fama-french-benchmark-portfolios.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Media/jupyter-lab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Media/jupyter-notebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/C8/Media/liquidity_trap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WorldQuant/Capstone/FinalProject.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorldQuant/Capstone/FinalProject.py" beforeDir="false" afterPath="$PROJECT_DIR$/WorldQuant/Capstone/FinalProject.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,6 +199,14 @@
       <option name="presentableId" value="Default" />
       <updated>1588360025204</updated>
     </task>
+    <task id="LOCAL-00001" summary="added CRT 2">
+      <created>1642968032589</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642968032589</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -393,7 +373,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/WorldQuant/Capstone/FinalProject.py</url>
-          <line>90</line>
+          <line>211</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>

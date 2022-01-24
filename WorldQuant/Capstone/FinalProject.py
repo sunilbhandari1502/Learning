@@ -1,6 +1,7 @@
 import pandas as pd
 from yahoofinancials import YahooFinancials
 import matplotlib.pyplot as plt
+import quantstats as qs
 
 # Getting S&P 500 data
 yahoo_financials = YahooFinancials('^GSPC')
@@ -11,6 +12,14 @@ sp500_df = pd.DataFrame(data['^GSPC']['prices'])
 sp500_df = sp500_df.drop('date', axis=1).set_index('formatted_date')
 sp500_df.head()
 
+yahoo_financials = YahooFinancials('^VIX')
+data = yahoo_financials.get_historical_price_data(start_date='1990-01-01',
+                                                  end_date='2021-12-31',
+                                                  time_interval='Daily')
+VIX_df = pd.DataFrame(data['^VIX']['prices'])
+VIX_df = VIX_df.drop('date', axis=1).set_index('formatted_date')
+VIX_df.head()
+
 # Getting VXX data
 yahoo_financials = YahooFinancials('VXX')
 data = yahoo_financials.get_historical_price_data(start_date='1990-01-01',
@@ -19,6 +28,15 @@ data = yahoo_financials.get_historical_price_data(start_date='1990-01-01',
 VXX_df = pd.DataFrame(data['VXX']['prices'])
 VXX_df = VXX_df.drop('date', axis=1).set_index('formatted_date')
 VXX_df.head()
+
+# # Plotting Vix Historical level
+# ax = plt.gca()
+# # line plot for Strategy 1
+# VIX_df.reset_index().plot(kind='scatter', x='formatted_date', y='close', color='blue', ax=ax)
+# # set the title
+# plt.title('Vix Scatter')
+# # show the plot
+# plt.show()
 
 start_date = '2018-01-25'
 end_date = '2021-12-31'
@@ -41,6 +59,17 @@ for date in VXX_df.index:
 
 strategyLevel1
 
+# Startegy 1 Analystics
+qs.extend_pandas()
+# fetch the daily returns for a stock
+returns = strategyLevel1.set_index('Date').pct_change()
+stock = pd.Series( returns.Level , index = pd.to_datetime(strategyLevel1['Date'], infer_datetime_format=True))
+# show snapshot
+# qs.plots.snapshot(stock, title='100% Long S&P 500')
+qs.reports.full(stock, "^GSPC")
+
+
+
 # Strategy 2 S&P 500 90% VXX 10%
 PortfolioStartValue = 100
 VxxAllocation = 0.1
@@ -59,7 +88,16 @@ for date in VXX_df.index:
 
 strategyLevel2
 
-# Strategy 3 S&P 500 90% VXX 25%
+# Startegy 2 Analystics
+qs.extend_pandas()
+# fetch the daily returns for a stock
+returns = strategyLevel2.set_index('Date').pct_change()
+stock = pd.Series( returns.Level , index = pd.to_datetime(strategyLevel2['Date'], infer_datetime_format=True))
+# show snapshot
+# qs.plots.snapshot(stock, title='100% Long S&P 500')
+qs.reports.full(stock, "^GSPC")
+
+# Strategy 3 S&P 500 75% VXX 25%
 PortfolioStartValue = 100
 VxxAllocation = 0.25
 strategyLevel3 = pd.DataFrame(columns=['Date', 'Level'])
@@ -77,14 +115,97 @@ for date in VXX_df.index:
 
 strategyLevel3
 
+# Startegy 3 Analystics
+qs.extend_pandas()
+# fetch the daily returns for a stock
+returns = strategyLevel3.set_index('Date').pct_change()
+stock = pd.Series( returns.Level , index = pd.to_datetime(strategyLevel3['Date'], infer_datetime_format=True))
+# show snapshot
+# qs.plots.snapshot(stock, title='100% Long S&P 500')
+qs.reports.full(stock, "^GSPC")
+
+# Strategy 4 S&P 500 80% VXX 20% Short VIX
+PortfolioStartValue = 100
+VxxAllocation = 0.2
+strategyLevel4 = pd.DataFrame(columns=['Date', 'Level'])
+
+# Strategy 4 Level calculation
+for date in VXX_df.index:
+    if date == start_date:
+        VxxAllocation = VxxAllocation * -1;
+        SpUnit = PortfolioStartValue * (1 - VxxAllocation) / (sp500_df["close"][sp500_df.index == date])[0]
+        VxxUnit = PortfolioStartValue * VxxAllocation / (VXX_df["close"][VXX_df.index == date])[0]
+        strategyLevel4 = strategyLevel4.append({'Date': date, 'Level': PortfolioStartValue}, ignore_index=True)
+    else:
+        PortfolioValue = SpUnit * (sp500_df["close"][sp500_df.index == date])[0] + VxxUnit * \
+                         (VXX_df["close"][VXX_df.index == date])[0]
+        strategyLevel4 = strategyLevel4.append({'Date': date, 'Level': PortfolioValue}, ignore_index=True)
+
+strategyLevel4
+
+# Startegy 4 Analystics
+qs.extend_pandas()
+# fetch the daily returns for a stock
+returns = strategyLevel4.set_index('Date').pct_change()
+stock = pd.Series( returns.Level , index = pd.to_datetime(strategyLevel4['Date'], infer_datetime_format=True))
+# show snapshot
+# qs.plots.snapshot(stock, title='100% Long S&P 500')
+qs.reports.full(stock, "^GSPC")
+
+# Strategy 5 S&P 500 80% VXX 20% Long VIX if VIX > VixLong Go Long and after tht if it comes below VixShort go short again
+PortfolioStartValue = 100
+VxxAllocation = 0.15
+VixLong = 35
+VixShort = 25
+strategyLevel5 = pd.DataFrame(columns=['Date', 'Level'])
+
+# Strategy 5 Level calculation
+for date in VXX_df.index:
+    if date == start_date:
+        if (VIX_df["close"][VIX_df.index == date])[0] < VixLong:
+            VxxAllocation = VxxAllocation * -1;
+        SpUnit = PortfolioStartValue * (1 - VxxAllocation) / (sp500_df["close"][sp500_df.index == date])[0]
+        VxxUnit = PortfolioStartValue * VxxAllocation / (VXX_df["close"][VXX_df.index == date])[0]
+        strategyLevel5 = strategyLevel5.append({'Date': date, 'Level': PortfolioStartValue}, ignore_index=True)
+    #         print('Date', date, 'Level', PortfolioStartValue,strategyLevel5)
+    else:
+        if VxxAllocation > 0 and (VIX_df["close"][VIX_df.index == date])[0] < VixShort:
+            VxxAllocation = VxxAllocation * -1
+            SpUnit = PortfolioValue * (1 - VxxAllocation) / (sp500_df["close"][sp500_df.index == date])[0]
+            VxxUnit = PortfolioValue * VxxAllocation / (VXX_df["close"][VXX_df.index == date])[0]
+        elif VxxAllocation < 0 and (VIX_df["close"][VIX_df.index == date])[0] > VixLong:
+            VxxAllocation = VxxAllocation * -1
+            SpUnit = PortfolioValue * (1 - VxxAllocation) / (sp500_df["close"][sp500_df.index == date])[0]
+            VxxUnit = PortfolioValue * VxxAllocation / (VXX_df["close"][VXX_df.index == date])[0]
+
+        PortfolioValue = SpUnit * (sp500_df["close"][sp500_df.index == date])[0] + VxxUnit * \
+                         (VXX_df["close"][VXX_df.index == date])[0]
+        strategyLevel5 = strategyLevel5.append({'Date': date, 'Level': PortfolioValue}, ignore_index=True)
+#         print('Date', date, 'Level', PortfolioStartValue,strategyLevel5)
+
+strategyLevel5
+
+# Startegy 5 Analystics
+qs.extend_pandas()
+# fetch the daily returns for a stock
+returns = strategyLevel5.set_index('Date').pct_change()
+stock = pd.Series( returns.Level , index = pd.to_datetime(strategyLevel5['Date'], infer_datetime_format=True))
+# show snapshot
+# qs.plots.snapshot(stock, title='100% Long S&P 500')
+qs.reports.full(stock, "^GSPC")
+
 # Plotting performance of different strategy
 ax = plt.gca()
 # line plot for Strategy 1
-strategyLevel1.plot(kind='line', x='Date', y='Level', color='green', ax=ax)
+strategyLevel1.plot(kind='line', x='Date', y='Level', label = "100% Equity", color='green', ax=ax)
 # line plot for Strategy 2
-strategyLevel2.plot(kind='line', x='Date', y='Level', color='blue', ax=ax)
+strategyLevel2.plot(kind='line', x='Date', y='Level',label = "10% VVX long Only", color='blue', ax=ax)
 # line plot for Strategy 3
-strategyLevel3.plot(kind='line', x='Date', y='Level', color='red', ax=ax)
+strategyLevel3.plot(kind='line', x='Date', y='Level', label = "25% VVX long Only",color='red', ax=ax)
+# line plot for Strategy 4
+strategyLevel4.plot(kind='line', x='Date', y='Level', label = "20% VVX Short Only",color='brown', ax=ax)
+# line plot for Strategy 5
+strategyLevel5.plot(kind='line', x='Date', y='Level', label = "15% VXX Long/Short VIX based", color='grey', ax=ax)
 # set the title
 plt.title('Performance comparison')
 # show the plot
